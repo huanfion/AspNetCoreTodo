@@ -10,3 +10,15 @@ D:\Work\Code\C#\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.Asse
 D:\Work\Code\C#\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.dll
 D:\Work\Code\C#\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
 D:\Work\Code\C#\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csprojResolveAssemblyReference.cache
+D:\Work\huanfion\mygit\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.deps.json
+D:\Work\huanfion\mygit\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.runtimeconfig.json
+D:\Work\huanfion\mygit\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.runtimeconfig.dev.json
+D:\Work\huanfion\mygit\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.dll
+D:\Work\huanfion\mygit\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csprojResolveAssemblyReference.cache
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csproj.CoreCompileInputs.cache
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfoInputs.cache
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfo.cs
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.dll
+D:\Work\huanfion\mygit\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.pdb

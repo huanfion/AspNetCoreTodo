@@ -5,6 +5,10 @@
     <UserSecretsId>aspnet-AspNetCoreTodo-69F43C4E-7A70-4F1D-966B-5AC67D584CAF</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Services\FakeTodoItemService.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />

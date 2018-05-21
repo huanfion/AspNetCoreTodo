@@ -37,4 +37,22 @@
         </form>
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#add-item-button").on("click",
+            function() {
+                var newtitle = $("#add-item-title").val();
+                $.post("/Todo/AddItem", { title: newtitle }, function() {
+                    window.location.href = "/Todo";
+                }).fail(function() {
+                    if (data && data.responseJSON) {
+                        var firstError = data.responseJSON[Object.keys(data.responseJSON)[0]];
+                        $('#add-item-error').text(firstError);
+                        $('#add-item-error').show();
+                    }
+                });
+    });
 
+    });
+</script>
