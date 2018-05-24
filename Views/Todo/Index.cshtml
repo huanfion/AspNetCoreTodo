@@ -20,7 +20,7 @@
         {
             <tr>
                 <td>
-                    <input type="checkbox" name="@item.Id" value="true" class="done-checkbox">
+                    <input type="checkbox" name="@item.Id" value="true" class="done-checkbox" @(item.IsDone==true?"checked disabled":"")>
                 </td>
                 <td>@item.Title</td>
                 <td>@item.DueAt</td>
@@ -41,18 +41,33 @@
 <script>
     $(document).ready(function () {
         $("#add-item-button").on("click",
-            function() {
+            function () {
                 var newtitle = $("#add-item-title").val();
-                $.post("/Todo/AddItem", { title: newtitle }, function() {
+                $.post("/Todo/AddItem", { title: newtitle }, function () {
                     window.location.href = "/Todo";
-                }).fail(function() {
+                }).fail(function () {
                     if (data && data.responseJSON) {
                         var firstError = data.responseJSON[Object.keys(data.responseJSON)[0]];
                         $('#add-item-error').text(firstError);
                         $('#add-item-error').show();
                     }
                 });
-    });
+            });
+
+        $(".done-checkbox").change(function () {
+            var $checkbox = $(this);
+            if ($(this).attr("checked") == "checked") {
+                alert("checked");
+            }
+            else {
+                $.post("/Todo/MarkDone", { Id: $(this).attr("name") }, function () {
+                    $checkbox.parents("tr").addClass("done");
+                    $checkbox.attr("disabled", "disabeld");
+                });
+                //$checkbox.attr("disabled","disabeld");
+            }
+        });
+
 
     });
 </script>
